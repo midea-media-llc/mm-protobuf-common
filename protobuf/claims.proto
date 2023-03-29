@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package mm.protobuf;
+package mideamedia.protobuf;
 
 option go_package = "github.com/midea-media-llc/mm-protobuf-common/user";
 
