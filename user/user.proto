@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package mm.protobuf;
+
+option go_package = "github.com/midea-media-llc/mm-protobuf-common/user";
+
+message Claims {
+	int64 Id = 1;
+	int64 ClientId = 2;
+	int64 UnitId = 3;
+	string Username = 4;
+	string Email = 5;
+	string Fullname = 6;
+	string Phone = 7;
+	bool IsAdmin = 8;
+	bool IsSystem = 9;
+	string Language = 10;
+	bool IsBaseLanguage = 11;
+}
