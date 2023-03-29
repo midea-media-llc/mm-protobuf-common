@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package mideamedia.protobuf;
 
-option go_package = "github.com/midea-media-llc/mm-protobuf-common/user";
+option go_package = "github.com/midea-media-llc/mm-protobuf-common/protobuf";
 
 message Claims {
 	int64 Id = 1;
