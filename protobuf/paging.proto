@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package mideamedia.protobuf;
+
+option go_package = "github.com/midea-media-llc/mm-protobuf-common/protobuf";
+
+message Paging {
+	bool Refresh = 1;
+	int32 Page = 2;
+	int32 Size = 3;
+	int32 Total = 4;
+	string Order = 5;
+	string OrderBy = 6;
+}
